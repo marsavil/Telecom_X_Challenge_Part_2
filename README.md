@@ -56,7 +56,8 @@ También se exploró la relación entre el gasto total y la cancelación:
 
 #### Scatter plot:
 
-![Scatter Tenure vs Total Charges](images/scatter_totalcharges_tenure.png)
+<img width="704" height="471" alt="gastos y permanencia" src="https://github.com/user-attachments/assets/4b40add9-d472-4937-847b-81b45ef802f9" />
+
 
 📌 **Conclusión:** La mayoría de los clientes que cancelan tienen poco tiempo en la compañía y bajo gasto total.
 
