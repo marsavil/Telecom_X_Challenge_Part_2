@@ -38,6 +38,8 @@ Tras un proceso de selección de características, se identificaron las siguient
 
 Se utilizó un boxplot para mostrar cómo el tiempo de permanencia varía entre quienes cancelan y quienes no:
 
+<img width="686" height="471" alt="chur-tenure" src="https://github.com/user-attachments/assets/64aab74a-a5f8-4e56-97ad-7b5a5d05c1ce" />
+<img width="686" height="471" alt="chur-tenure" src="https://github.com/user-attachments/assets/09536dc7-bc4b-4838-80c5-c399d5e52808" />
 
 
 📌 **Conclusión:** Los clientes que cancelan suelen tener menor antigüedad.
