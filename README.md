@@ -69,7 +69,7 @@ También se exploró la relación entre el gasto total y la cancelación:
 |--------------------|----------|-----------|--------|----------|---------|
 | Random Forest      |  0.805   | 0.672     | 0.522  | 0.588    | 0.833   |
 | Gradient Boosting  |  0.803   | 0.644     | 0.575  | 0.608    | 0.841   |
-| **Champion Model** | **0.7568** | **0.5274** | **0.801**  | **0.636**  |  **0.636**  |
+| **Champion Model** | **0.7568** | **0.5274** | **0.801**  | **0.636**  |  **0.8444**  |
 
 📌 El modelo campeón se seleccionó por su mejor balance entre precisión y recall.
 
