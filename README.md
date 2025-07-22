@@ -71,6 +71,19 @@ También se exploró la relación entre el gasto total y la cancelación:
 | Gradient Boosting  |  0.803   | 0.644     | 0.575  | 0.608    | 0.841   |
 | **Champion Model** | **0.7568** | **0.5274** | **0.801**  | **0.636**  |  **0.8444**  |
 
+### Referencias
+
+## 📊 Métricas de Evaluación del Modelo
+
+| Métrica       | Qué mide                                                                 | Fórmula                                         | Cuándo usarla                                                                  |
+|---------------|---------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------------------------------|
+| ✅ **Accuracy**   | Proporción de predicciones correctas.                                      | (TP + TN) / (TP + TN + FP + FN)                  | Cuando las clases están **balanceadas**.                                        |
+| 🎯 **Precision**  | De las predicciones positivas, cuántas fueron correctas.                   | TP / (TP + FP)                                   | Cuando querés **evitar falsos positivos**.                                      |
+| 📡 **Recall**     | De los casos positivos reales, cuántos detectó el modelo.                  | TP / (TP + FN)                                   | Cuando se busca **detectar todos los positivos**, incluso con falsos positivos.   |
+| ⚖️ **F1 Score**   | Promedio armónico entre Precision y Recall.                                | 2 * (P * R) / (P + R)                             | Cuando hay **clases desbalanceadas** y se quiere equilibrar errores.              |
+| 📈 **ROC AUC**    | Qué tan bien distingue el modelo entre clases (positiva vs negativa).     | Área bajo la curva ROC                           | Cuando se quiere evaluar el **rendimiento global** del modelo en distintos umbrales. |
+
+
 📌 El modelo campeón se seleccionó por su mejor balance entre precisión y recall.
 
 ---
